@@ -51,7 +51,7 @@ $autoload['packages'] = array();
 | or in your application/libraries folder.
 |
 | Prototype:
-|
+| 
 |	$autoload['libraries'] = array('database', 'email', 'xmlrpc');
 |
 | You can also supply an alternative library name to be assigned
