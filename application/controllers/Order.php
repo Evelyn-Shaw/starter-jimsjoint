@@ -122,7 +122,7 @@ class Order extends Application {
         $this->orderitems->delete_some($order_num);
         $record = $this->orders->get($order_num);
         $record->status = 'x';
-        $this->order->update($record);
+        $this->orders->update($record);
         redirect('/');
     }
 
