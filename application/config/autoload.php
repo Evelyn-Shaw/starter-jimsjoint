@@ -51,7 +51,7 @@ $autoload['packages'] = array();
 | or in your application/libraries folder.
 |
 | Prototype:
-|
+| 
 |	$autoload['libraries'] = array('database', 'email', 'xmlrpc');
 |
 | You can also supply an alternative library name to be assigned
@@ -60,7 +60,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
 
-$autoload['libraries'] = array('parser');
+$autoload['libraries'] = array('parser','database');
 
 
 /*
@@ -137,4 +137,4 @@ $autoload['language'] = array();
 |	$autoload['model'] = array('first_model' => 'first');
 */
 
-$autoload['model'] = array();
+$autoload['model'] = array('menu','orderitems','orders');
